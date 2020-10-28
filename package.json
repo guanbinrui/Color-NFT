@@ -1,0 +1,19 @@
+{
+  "name": "Color-NFT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "flatten": "truffle-flattener ./node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol > ./contracts/ERC721.sol",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.2.0",
+    "truffle-flattener": "^1.5.0"
+  }
+}
